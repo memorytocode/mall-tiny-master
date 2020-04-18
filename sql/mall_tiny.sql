@@ -12,13 +12,12 @@ File Encoding         : 65001
 
 Date: 2019-08-04 15:31:57
 */
-1111
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
 -- Table structure for pms_brand
 -- ----------------------------
-DROP TABLE IF EXISTS `pms_brand`;
+DROP TABLE IF EXISTS `pms_brand1`;
 CREATE TABLE `pms_brand` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(64) DEFAULT NULL,
